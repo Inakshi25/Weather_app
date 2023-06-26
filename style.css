@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
 *{
     margin : 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background:black;
+    background-image: url(images/backimage.PNG); 
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    font-family: 'Rubik', sans-serif;
     padding: 30px;
 }
+
 .card{
     width: 80%;
     max-width: 500px;
+    background-color: #000000c1;
     /* background:linear-gradient(135deg,rgb(231, 52, 147), rgb(0, 174, 255)); */
     color: white;
     margin: 10px auto 0;
@@ -52,11 +58,11 @@ body{
     margin-top: 30px;
 }
 .waether h1{
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 500;
 }
 .waether h2{
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 400;
     margin-top: -10px;
 }
